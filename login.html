@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+      <link rel="stylesheet" href="css/login.css">
+      <h1><center><a href="index.html" ><img width="100" height="140" src="images/cusat-emblem.jpg" /></a></center></h1>
+</head>
+
+<body>
+  <div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" name="name" id="name" placeholder="name"/>
+      <input type="password"name="password" id="password"  placeholder="password"/>
+      <input type="password"name="cpword" id="cpword"  placeholder="confirm password"/>
+      <input type="text" placeholder="email address"/>
+      <select class="form select">
+          <option value="Student">Student</option>
+          <option value="Teacher">Teacher</option>
+        </select>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form">
+      <select class="form select">
+          <option value="Student">Student</option>
+          <option value="Teacher">Teacher</option>
+        </select>
+      <input type="text"name="uname" id="uname"  placeholder="username"/>
+      <input type="password" name="pword" id="pword" placeholder="password"/>
+      <button>login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script  src="js/login.js"></script>
+
+</body>
+</html>
