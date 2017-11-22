@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <title>Login Page</title>
       <link rel="stylesheet" href="css/login.css">
-      <h1><center><a href="index.html" ><img width="100" height="140" src="images/cusat-emblem.jpg" /></a></center></h1>
+      <h1><center><a href="index.html" ><img width="200" height="200" src="images/cusat-emblem.jpg" /></a></center></h1>
 </head>
 
 <body>
   <div class="login-page">
   <div class="form">
     <form class="register-form">
-      <input type="text" name="name" id="name" placeholder="name"/>
-      <input type="password"name="password" id="password"  placeholder="password"/>
-      <input type="password"name="cpword" id="cpword"  placeholder="confirm password"/>
-      <input type="text" placeholder="email address"/>
+      <input type="text" name="name" id="name" placeholder="name"required/>
+      <input type="password"name="password" id="password"  placeholder="password"required/>
+      <input type="password"name="cpword" id="cpword"  placeholder="confirm password"required/>
+      <input type="email" placeholder="email address"required/>
       <select class="form select">
           <option value="Student">Student</option>
           <option value="Teacher">Teacher</option>
@@ -27,8 +27,8 @@
           <option value="Student">Student</option>
           <option value="Teacher">Teacher</option>
         </select>
-      <input type="text"name="uname" id="uname"  placeholder="username"/>
-      <input type="password" name="pword" id="pword" placeholder="password"/>
+      <input type="text"name="uname" id="uname"  placeholder="username"required/>
+      <input type="password" name="pword" id="pword" placeholder="password" required/>
       <button>login</button>
       <p class="message">Not registered? <a href="#">Create an account</a></p>
     </form>
